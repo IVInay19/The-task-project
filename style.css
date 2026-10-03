@@ -1,0 +1,43 @@
+:root{
+  --ink:#06284d; --blue:#00629b; --teal:#00a6a6; --amber:#ffb81c;
+  --bg:#f2f6fa; --card:#ffffff; --text:#1c2b3a; --muted:#51647a; --line:#d5dfea;
+  --head:'Sora',system-ui,sans-serif; --body:'Source Sans 3',system-ui,sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin:0 ;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: var(--body);
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    color: var(--text);
+    background: var(--bg);
+}
+img{
+    display: block;
+    width: 100%;
+}
+a{
+    color: inherit;
+}
+:focus-visible{
+    outline: 3px solid var(--amber);
+    outline-offset: 3px;
+}
+.wrap{
+    width: min(1100px, 100% - 2.5rem);
+    margin-inline: auto;
+}
+.logos img{
+    margin: 0 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    height: 50px;
+    width: auto;
+    background-color: #fff;
+}
